@@ -1,0 +1,39 @@
+{
+  "name": "tm-mock-server",
+  "version": "0.1.0",
+  "description": "tm mock api fast server",
+  "bin": {
+    "tm-mock": "./src/index.js"
+  },
+  "scripts": {
+    "tm": "tm-mock -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/note520/tm-mock.git"
+  },
+  "keywords": [
+    "tm-mock",
+    "mock",
+    "api",
+    "koa2 mock"
+  ],
+  "author": "ricopter@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "http-proxy-middleware": "^0.20.0",
+    "koa": "^2.8.2",
+    "koa-body": "^4.1.1",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-proxy-middleware": "^1.1.4",
+    "koa-static": "^5.0.0",
+    "koa2-connect": "^1.0.2",
+    "koa2-serve-index": "^2.0.1",
+    "minimist": "^1.2.0",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+  }
+}
