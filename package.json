@@ -16,7 +16,8 @@
     "tm-mock",
     "mock",
     "api",
-    "koa2 mock"
+    "koa2 mock",
+    "tm-mock-server"
   ],
   "author": "ricopter@qq.com",
   "license": "MIT",
