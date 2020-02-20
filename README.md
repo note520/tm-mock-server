@@ -37,4 +37,4 @@ tm-mock -x http://target.com
 - 例如 '_api/test/db.json' db.json 则为 请求 '_api/test/db' 提供数据源。那么 get或者post ajax 访问 'http://x.x.x.x:8000/_api/test/db' 得到数据
 
 #### 感谢
-- 参考了[anywhere](https://github.com/JacksonTian/anywhere)的原理，基于koa2 实现了anywhere的功能并且增强功能
+- 参考了[anywhere](https://github.com/JacksonTian/anywhere)的原理，基于koa2 实现了anywhere的功能并且增强
